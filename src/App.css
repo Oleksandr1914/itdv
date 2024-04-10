@@ -101,33 +101,3 @@ h6 {
   text-align: center;
   font-size: 24px;
 }
-
-.Card {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-}
-
-.Card img {
-  width: 160px;
-}
-
-.Card-info {
-  padding-top: 25px;
-}
-
-.Card-info h3 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-.Card-info p {
-  font-size: 16px;
-  margin-bottom: 6px;
-}
-
-.Card-info span {
-  font-weight: 600;
-  margin-right: 6px;
-}

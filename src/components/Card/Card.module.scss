@@ -1,0 +1,30 @@
+.cardContainer {
+  width: 300px;
+  border: 2px solid #272727;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
+.cardInfo {
+  padding: 8px 4px;
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  span {
+    font-weight: 600;
+    margin-right: 6px;
+  }
+}

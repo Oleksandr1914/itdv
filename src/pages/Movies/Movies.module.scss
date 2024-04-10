@@ -1,0 +1,14 @@
+.container {
+  padding: 10px 40px;
+
+  h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+}
+
+.blockCards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}

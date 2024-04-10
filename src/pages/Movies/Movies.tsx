@@ -1,4 +1,5 @@
-import MovieThumb from '../../assets/movie-thumb.png';
+import Card from "../../components/Card/Card"
+import styles from './Movies.module.scss'
 
 export interface Movie {
     "adult": boolean,
@@ -23,19 +24,11 @@ interface Props {
 
 const Movies = ({ movies }: Props) => {
     return (
-        <div className="Container">
+        <div className={styles.container}>
             <h2>Movies</h2>
-            {movies.map(el => (
-                <div key={el.id} className='Card'>
-                    <img src={MovieThumb} alt="poster" />
-                    <div className='Card-info'>
-                        <h3>{el.original_title}</h3>
-                        <p><span className=''>release:</span>{el.release_date}</p>
-                        <p>{el.overview}</p>
-
-                    </div>
-                </div>
-            ))}
+            <div className={styles.blockCards}>  {movies.map(el => (
+                <Card mov={el} />
+            ))}</div>
         </div>
     )
 }
