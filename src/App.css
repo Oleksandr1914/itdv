@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: rgb(27, 26, 25);
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.Header {
+  padding: 16px 40px;
+  background-color: #70631a;
+}
+
+.Header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Header a {
+  font-size: 18px;
+  color: rgb(245, 231, 209);
+}
+.Header a:hover {
+  color: rgb(209, 220, 245);
+}
+
+.Container {
+  padding: 10px 40px;
+}
+
+.Container h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.Card {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.Card img {
+  width: 160px;
+}
+
+.Card-info {
+  padding-top: 25px;
+}
+
+.Card-info h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.Card-info p {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.Card-info span {
+  font-weight: 600;
+  margin-right: 6px;
+}
